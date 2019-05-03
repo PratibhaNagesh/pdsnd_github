@@ -16,8 +16,8 @@ Files used are:
 	- bikeshare.py
 
 ### Credits
-https://stackoverflow.com/
-https://www.pythonprogramming.in/
-https://www.reddit.com/r/learnpython/
-https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
-https://www.geeksforgeeks.org/python-pandas-dataframe/
+[stackoverflow pages] (https://stackoverflow.com/)
+[pythonprogramming pages] (https://www.pythonprogramming.in/)
+[reddit pages] (https://www.reddit.com/r/learnpython/)
+[pandas.pydata pages] (https://pandas.pydata.org/pandas-docs/stable/reference/frame.html)
+[geekforgeeks pages] (https://www.geeksforgeeks.org/python-pandas-dataframe/)
