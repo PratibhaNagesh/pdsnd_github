@@ -1,11 +1,12 @@
 ### Date created
-Date created : **04/22/2019**
+Date created: **04/22/2019**
 
 ### Project Title
-Replace the Project Title
+Project title: **Explore US bikeshare data**
 
 ### Description
-Describe what your project is about and what it does
+_Display detailed trip and user statistics for the three states - Chicago, New 
+York City and Washington based on user request._
 
 ### Files used
 Include the files used
