@@ -1,4 +1,4 @@
-import time
+ marchimport time
 import numpy as np
 import pandas as pd
 import calendar as cal
@@ -25,14 +25,14 @@ def get_filters():
         city = input("Invalid input, please enter one of the following (chicago, new york city or washington): ")
         city = city.lower().strip()
 
-    # get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, march, april, may, june)
     month = input("Month that you want to explore the data for ('all', 'january', 'february', 'march', 'april', 'may', 'june')?: ")
     month = month.lower().strip()
 
     while month.lower() not in ('all', 'january', 'february', 'march', 'april', 'may', 'june'):
         month = input("Invalid input, enter one of the following ('all', 'january', 'february', 'march', 'april', 'may', 'june'): ")
         month = month.lower().strip()
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, wednesday, thursday, friday, saturday, sunday)
     day = input("Day of the week that you want to explore the data for ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')?: ")
     day = day.lower().strip()
 
