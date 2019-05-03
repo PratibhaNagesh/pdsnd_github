@@ -190,7 +190,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def individual_trip_data(df):
-
+    """Displays individual trip data on user request"""
     user_input = user_input_trip_data()
     if user_input == 'no':
         return
