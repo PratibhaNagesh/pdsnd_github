@@ -10,10 +10,10 @@ York City and Washington based on user request._
 
 ### Files used
 Files used are:
-	* chicago.csv
-	* new_york_city.csv
-	* washington.csv
-	* bikeshare.py
+	- chicago.csv
+	- new_york_city.csv
+	- washington.csv
+	- bikeshare.py
 
 ### Credits
 https://stackoverflow.com/
