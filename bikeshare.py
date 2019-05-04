@@ -150,11 +150,11 @@ def trip_duration_stats(df):
 
     # display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    print("Total Duration: ",total_travel_time)
+    print("Total Duration: {}".format(total_travel_time))
 
     # display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    print("Average Duration: ",mean_travel_time)
+    print("Average Duration: {}".format(mean_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -190,7 +190,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def individual_trip_data(df):
-
+    """Displays individual trip data on user request"""
     user_input = user_input_trip_data()
     if user_input == 'no':
         return
